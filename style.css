@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+/* header styling */
+header{
+    width: 100vw;
+    height: 100vh;
+    background: url('notebook-natural-laptop-macbook.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.hero-title{
+    width: 95%;
+    margin: 95px auto;
+    padding-top: 2rem;
+}
+.hero-title h1{
+    font-size: 5.5rem;
+    width: 65%;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.hero-title p{
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+}
+.hero-title .text{
+    margin-top: 1em;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.social{
+  width: 95%;
+  margin: 95px auto;
+  position: absolute;
+  top: 60%;
+}
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    color: #3f301d;
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #fff;
+    border: solid 3px #fff;
+}
+.social a:hover{
+    transform: scale(1.1);
+    background: #3f301d;
+    transition: .4s;
+    color: #fff;
+}
+/* end of header styling */
+
+/* features styling */
+#features{
+    width: 95%;
+    margin: 95px auto;
+}
+.features{
+    text-align: center;
+}
+.features h2{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.features p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 0.5em;
+    line-height: 1.3em;
+}
+.features img{
+    height: 100% auto;
+    width: 100%;
+    max-width: 500px;
+}
+/* end of featurres styling */
+
+/* services styling */
+#services{
+    width: 95%;
+    margin: 95px auto;
+    background: url('pexels-craig-dennis-205421.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    margin-top: -5em;
+    padding-bottom: 5.5em;
+    max-width: 1300px;
+    margin-left: 1.4em;
+}
+.box{
+    margin-top: 2em;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 90px 30px;
+    width: 220px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.box h2{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.box p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 1em;
+}
+.icons8{
+    margin-top: 6em;
+}
+.boxes-1{
+    margin-top: 12em;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 90px 30px;
+    width: 220px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.boxes-2{
+    margin-top: 12em;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 90px 30px;
+    width: 220px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.boxes-3{
+    margin-top: 12em;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 90px 30px;
+    width: 220px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.boxes-1 h2{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.boxes-1 p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 1em;
+}
+.boxes-2 h2{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.boxes-2 p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 1em;
+}
+.boxes-3 h2{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.boxes-3 p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-top: 1em;
+}
+.boxes img{
+    height: 100% auto;
+    width: 100%;
+    max-width: 70px;
+    transition: 0.5s ease;
+}
+.boxes img:hover{
+    transform: scale(1.2);
+}
+/* end of services styling */
+
+/* about styling */
+#about{
+    width: 95%;
+    margin: 95px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 3em;
+    max-width: 1200px;
+    padding-top: 3em;
+}
+video{
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    border: solid 2px gray;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 2%;
+}
+.about h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.about p{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-top: 0.3em;
+    width: 105%;
+}
+.learn-more{
+    margin-top: 0.5em;
+    margin-left: -0.1em;
+}
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #3f301d;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: black;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: black;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #3f301d;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
+/* end of about styling */
+
+/* portfolio styling */
+#portfolio{
+    width: 95%;
+    margin: 95px auto;
+    background: url('pexels-mikhail-nilov-6964171.jpg');
+    height: 100%;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em;
+}
+.portfolio img{
+    height: 100% auto;
+    width: 100%;
+    max-width: 300px;
+}
+.box-port{
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 20px 30px;
+    width: 220px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.box-port img{
+    margin-top: 3em;
+    transition: 0.5s ease;
+}
+.box-port img:hover{
+    transform: scale(1.1);
+}
+.box-port .img-port{
+    margin-bottom: 3em;
+    transition: 0.5s ease;
+}
+.box-port .img-port:hover{
+    transform: scale(1.1);
+}
+.box-port h2{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.box-port p{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    width: 100%;
+    margin-top: 0.5em;
+}
+.visit button{
+    margin-top: 2em;
+    padding: 8px 25px;
+    background-color: #1560bd;
+    color: #fff;
+    border: none;
+}
+.visit button:hover{
+    text-decoration: underline;
+}
+.visit-1 button{
+    padding: 8px 25px;
+    margin-top: 2em;
+    letter-spacing: 3px;
+    font-weight: 300;
+    border-radius: 5%;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+/* end of portfolio styling */
+#footer{
+    width: 100%;
+    margin: 100px auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.footer{
+    text-align: center;
+    padding: 10px 100px;
+    background-color: #976841;
+}
+.footer h4{
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.footer h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 1em;
+    font-size: 0.9rem;
+}
+@media screen and (max-width:1100px){
+    .hero-title{
+        width: 90%;
+        margin: 90px auto;
+    }
+    .hero-title h1{
+        font-size: 3.5rem;
+    }
+    .social{
+        padding-top: 2em;
+    }
+    .hero-title .text{
+        font-size: 0.9rem;
+    }
+    .hero-title p{
+        font-size: 0.9rem;
+    }
+    .boxes{
+        margin-left: -0.4em;
+        padding: 1.5em;
+        padding-bottom: 8em;
+    }
+    #portfolio{
+        width: 97%;
+        margin: 97px auto;
+    }
+    .portfolio{
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width:500px){
+    .hero-title h1{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    #about{
+        flex-direction: column;
+    }
+    .about{
+        text-align: center;
+    }
+    .boxes{
+        margin-left: -0.1em;
+    }
+}
+
+@media screen and (max-width:800px){
+    .boxes{
+        flex-direction: column;
+        margin-top: -10em;
+    }
+    .boxes-2{
+        margin-top: 1.5em;
+    }
+    .boxes-3{
+        margin-top: 1.5em;
+    }
+    .icons8{
+        width: 50%;
+        margin: auto;
+        margin-top: 6em;
+    }
+    #about{
+        flex-direction: column;
+    }
+    .about{
+        text-align: center;
+    }
+    .about p{
+        width: 100%;
+    }
+    #about{
+        width: 90%;
+        margin: 90px auto;
+        padding-top: 1.5em;
+    }
+    .box{
+        padding: 70px 30px;
+    }
+    .boxes-1{
+        padding: 70px 30px;
+    }
+    .boxes-2{
+        padding: 70px 30px;
+    }
+    .boxes-3{
+        padding: 70px 30px;
+    }
+    #services{
+        padding-top: 1em;
+    }
+    .portfolio{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer h4{
+        font-size: 0.8rem;
+    }
+    .footer h5{
+        font-size: 0.7rem;
+    }
+}
